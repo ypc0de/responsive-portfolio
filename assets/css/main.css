@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+  --primary-color: #0092e4;
+  --title-color: #212529;
+  --text-color: #626881;
+  --text-color-light: #c6c9d2;
+  --bg-color: #f6f7fb;
+
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Playfair Display", serif;
+
+  --h1-font-size: 2rem;
+  --h3-font-size: 2.375rem;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-semibold: 500;
+  --fw-bold: 600;
+}
+
+@media screen and (min-width: 769px) {
+  :root {
+    --h1-font-size: 3rem;
+    --h3-font-size: 3.125rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: var(--fw-regular);
+  background-color: var(--bg-color);
+}
+
+/* reusable class */
+
+/* end */
+
+/* header */
+
+/* end */
+
+/* hero style */
+
+/* end */
+
+/* about style */
+
+/* end */
+
+/* skills style */
+
+/* end */
+
+/* client style */
+
+/* end */
+
+/* portfolio style */
+
+/* end */
+
+/* contact style */
+
+/* end */
+
+/* footer style */
+
+/* end */
+@media screen and (min-width: 769px) {
+  /* header */
+
+  /* end */
+
+  /* hero style */
+
+  /* end */
+
+  /* about style */
+
+  /* end */
+
+  /* skills tyle */
+
+  /* end */
+
+  /* clients style */
+
+  /* end */
+
+  /* portfolio style */
+
+  /* end */
+
+  /* footer style */
+
+  /* end */
+}
+
+@media screen and (min-width: 1024px) {
+}
